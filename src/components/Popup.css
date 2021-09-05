@@ -1,0 +1,9 @@
+.modal-close-btn{
+    position: absolute;
+    top: 0px;
+    margin: 10px;
+    display: flex;
+    transform: scale(1.2);
+    align-self: flex-end;
+    cursor: pointer;
+}

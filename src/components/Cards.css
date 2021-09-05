@@ -1,0 +1,44 @@
+.card-container{
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 5px;
+    margin: 10px 20px 15px 20px;
+    padding: 10px 10px ;
+}
+.right-header{
+    float: right;
+    margin: 30px 10x;
+    font-weight: 500;
+    color: rgb(42, 148, 83);
+}
+.left-header{
+    margin: 20px 10px 20px 20px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.card-text{
+    margin:10px 20px;
+    font-weight: 500;
+    color: rgb(139, 126, 126);
+}
+.reward-btn{
+    float: right;
+    background-color: rgba(18, 85, 57, 0.931);
+    color: rgb(228, 227, 227);
+    font-weight: 500;
+    padding: 7px;
+    position: relative;
+    top:-43px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.footer-text{
+    display: flex;
+    margin-left: 20px;
+}
+.footer-text p{
+    margin-left: 5px;
+}
+.card-container-empty{
+    
+}

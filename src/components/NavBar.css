@@ -1,0 +1,113 @@
+.backgroundimg{
+    height: 400px;
+    width: 100%;
+    background-image: url('https://gdurl.com/nLYl') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-container{
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+}
+.brand-name{
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.links{
+    float: right;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.toggle-nav{
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    
+}
+
+.link{
+    color: azure;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+@media (min-width:400px) and (max-width:500px) {
+    .backgroundimg{
+        height: 400px;
+        width: 100%;
+        background-image: url('https://gdurl.com/RI74x') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .toggle-nav{
+        color:white;
+        float: right;
+        transform: scale(1.4);
+        visibility: visible;
+        position: absolute;
+        top: 20px;
+        left: 80%;
+    }
+    .links{
+        float: right;
+        font-size: 1.1rem;
+        visibility: hidden;
+    }
+    .toggle-link{
+        margin-top: 20px;
+    }
+    .nav-toggle-text{
+        margin: 50px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        font-weight: 550;
+        color: rgb(51, 49, 49);
+        cursor: pointer;
+    }
+    .myModal{
+        width: 800px;
+    }
+    
+}
+@media (max-width:400px) {
+    .backgroundimg{
+        height: 400px;
+        width: 100%;
+        background-image: url('https://gdurl.com/RI74x') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .toggle-nav{
+        color:white;
+        float: right;
+        transform: scale(1.4);
+        visibility: visible;
+        position: absolute;
+        top: 20px;
+        left: 80%;
+    }
+    .links{
+        float: right;
+        font-size: 1.1rem;
+        visibility: hidden;
+    }
+    .toggle-link{
+        margin-top: 20px;
+    }
+    .nav-toggle-text{
+        margin: 50px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        font-weight: 550;
+        color: rgb(51, 49, 49);
+        cursor: pointer;
+    }
+    .myModal{
+        width: 800px;
+    }
+    
+}
